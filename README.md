@@ -1,6 +1,8 @@
 # Hotel Management System
 A simple hotel management system that uses CRUD operation in managing hotel bookings built with Laravel.
 <br>
+
+---
 ## Fields Used in Database Table
 | Field | Type |
 |---|---|
