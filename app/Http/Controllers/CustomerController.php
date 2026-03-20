@@ -34,7 +34,7 @@ class CustomerController extends Controller
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
             'room_type' => 'required|in:Standard,Deluxe,Grand Deluxe',
-            'room_number' => 'required|integer|min:1|max:100',
+            'room_number' => 'required|integer|min:1|max:200',
             'checkin_date' => 'required|date|after_or_equal:today',
             'checkout_date' => 'required|date|after:checkin_date',
         ]);
