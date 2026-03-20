@@ -1,10 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CustomerController;
+use App\Models\Customer;
 
 Route::get('/', function () {
-    return redirect()->route('students.index');
+    return redirect()->route('customer.index');
 });
 
-Route::resource('students', StudentController::class);
+Route::resource('customer', CustomerController::class);
