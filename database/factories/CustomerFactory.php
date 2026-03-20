@@ -20,12 +20,12 @@ class CustomerFactory extends Factory
         $checkout = $this->faker->dateTimeBetween($checkin, '+2 months');
 
         return [
-            'booking_id'    => $this->faker->unique()->numerify('BK-#####'),
-            'firstname'     => $this->faker->firstName(),
-            'lastname'      => $this->faker->lastName(),
-            'room_type'     => $this->faker->randomElement(['Standard', 'Deluxe', 'Grand Deluxe']),
-            'room_number'   => $this->faker->numberBetween(1, 100),
-            'checkin_date'  => $checkin,
+            'booking_id' => $this->faker->unique()->numerify('BK-#####'),
+            'firstname' => $this->faker->firstName(),
+            'lastname' => $this->faker->lastName(),
+            'room_type' => $this->faker->randomElement(['Standard', 'Deluxe', 'Grand Deluxe']),
+            'room_number' => $this->faker->numberBetween(1, 100),
+            'checkin_date' => $checkin,
             'checkout_date' => $checkout,
         ];
     }
