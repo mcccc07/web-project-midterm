@@ -68,7 +68,7 @@ class CustomerController extends Controller
     public function update(Request $request, string $id)
     {
         $request->validate([
-            'booking_id' => 'required|string|unique:customers,booking_id,' . $id,
+            'booking_id' => 'required|string|unique:customers,booking_id' . $id,
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
             'room_type' => 'required|in:Standard,Deluxe,Grand Deluxe',
