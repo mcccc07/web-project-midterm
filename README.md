@@ -1,5 +1,6 @@
-# Simple Hotel Management System
-
+# Hotel Management System
+A simple hotel management system that uses CRUD operation in managing hotel bookings built with Laravel.
+<br>
 ## Fields Used in Database Table
 | Field | Type |
 |---|---|
@@ -13,7 +14,7 @@
 | `checkout_date` | date |
 | `created_at` | timestamp |
 | `updated_at` | timestamp |
-
+<br>
 ## CRUD Operations
 ### Index
 <img width="1910" height="914" alt="{AE72810B-E8CD-4E22-AF15-E19DA1713084}" src="https://github.com/user-attachments/assets/83f254df-e889-4e39-ab01-8b0cbf7fe2be" />
