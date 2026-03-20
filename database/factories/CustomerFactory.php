@@ -24,7 +24,7 @@ class CustomerFactory extends Factory
             'firstname' => $this->faker->firstName(),
             'lastname' => $this->faker->lastName(),
             'room_type' => $this->faker->randomElement(['Standard', 'Deluxe', 'Grand Deluxe']),
-            'room_number' => $this->faker->numberBetween(1, 100),
+            'room_number' => $this->faker->numberBetween(1, 200),
             'checkin_date' => $checkin,
             'checkout_date' => $checkout,
         ];
